@@ -1,0 +1,24 @@
+void main(List<String> arguments) {
+  ////////////////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////// FOR ////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////
+  var listaNomes = ["Gabriel", "Beatriz", "Danilo", "Marcos"];
+
+  for (var i = 0; i < listaNomes.length; i++) {
+    print(listaNomes[i]);
+  }
+
+  var texto = "Meu primeiro bloco for";
+
+  for (var i = 0; i < texto.length; i++) {
+    print(texto[i]);
+  }
+
+  for (var i = 0; i <= 10; i++) {
+    print("O valor de I é: $i");
+  }
+
+  // var n1 = 0;
+  // var n2 = 0;
+  // var result = 0;
+}
